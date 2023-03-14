@@ -10,8 +10,7 @@ const ButtonData = () => {
         // console.log(event.target.value)
         const ClickO1 = event.target.value;
         setinputdata(ClickO1)
-        console.log(ClickO1)
-        totalcartvalue(ClickO1)
+        totalcartvalue(1)
     }
 
     const BuyTwoClickHandler = (event) => {
@@ -19,8 +18,7 @@ const ButtonData = () => {
         // console.log(event.target.value)
         const ClickO2 = event.target.value;
         setinputdata(ClickO2)
-        console.log(ClickO2)
-        totalcartvalue(ClickO2)
+        totalcartvalue(2)
     }
 
     const BuyThreeClickHandler = (event) => {
@@ -28,14 +26,13 @@ const ButtonData = () => {
         // console.log(event.target.value)
         const ClickO3 = event.target.value;
         setinputdata(ClickO3)
-        console.log(ClickO3)
-        totalcartvalue(ClickO3)
+        totalcartvalue(3)
     }
   return (
     <div>
-      <button value='1' onClick={BuyOneClickHandler}>BuyOne</button>
-      <button value='2' onClick={BuyTwoClickHandler} >BuyTwo</button>
-      <button value='3' onClick={BuyThreeClickHandler} >BuyThree</button>
+      <button onClick={BuyOneClickHandler}>BuyOne</button>
+      <button onClick={BuyTwoClickHandler} >BuyTwo</button>
+      <button onClick={BuyThreeClickHandler} >BuyThree</button>
     </div>
   )
 }

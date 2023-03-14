@@ -3,7 +3,7 @@ import ContextData from './ContextData'
 
 const ContextProvider = (props) => {
   const [products, Setproducts] = useState([])
-  const [cartdata, Setcartdata] = useState([])
+  const [cartdata, Setcartdata] = useState(1)
 
   const addtocart = (newcandyname, newdescribtion, newprice) => {
     Setproducts((newaddtocart) => {
@@ -16,12 +16,10 @@ const ContextProvider = (props) => {
   }
 
   const totalcartvalue = (newinputdata) => {
-    Setcartdata((newData) => {
-      return [...newData,{
-        inputdata:newinputdata
-      }]
-    })
+    const totalvalue =  cartdata + newinputdata
+    Setcartdata(totalvalue)
   }
+
 
 
   return (
