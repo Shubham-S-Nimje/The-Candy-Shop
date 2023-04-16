@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/The-Candy-Shop/static/css/main.756af292.css",
+    "main.js": "/The-Candy-Shop/static/js/main.7e2fc339.js",
+    "static/js/787.28cb0dcd.chunk.js": "/The-Candy-Shop/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/The-Candy-Shop/index.html",
+    "main.756af292.css.map": "/The-Candy-Shop/static/css/main.756af292.css.map",
+    "main.7e2fc339.js.map": "/The-Candy-Shop/static/js/main.7e2fc339.js.map",
+    "787.28cb0dcd.chunk.js.map": "/The-Candy-Shop/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.756af292.css",
+    "static/js/main.7e2fc339.js"
+  ]
+}
